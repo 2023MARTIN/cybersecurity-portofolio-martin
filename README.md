@@ -32,5 +32,5 @@ Cybersecurity | Cloud Security | Security Management
 
 ## Contact
 
-- LinkedIn: [Add your LinkedIn URL here]
-- GitHub: [Add your GitHub profile URL here]
+- LinkedIn: https://www.linkedin.com/in/dr-martin-guillaume-tchio-tchinda-51ba1b167/
+- GitHub: https://github.com/2023MARTIN
