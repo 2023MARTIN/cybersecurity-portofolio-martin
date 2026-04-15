@@ -27,8 +27,8 @@ The goal of this portfolio is to demonstrate practical cybersecurity skills thro
 
 ## Author
 
-**Martin Guillaume Tchio Tchinda**  
-Cybersecurity | Cloud Security | Security Management
+**Dr Martin Guillaume Tchio Tchinda**  
+Cybersecurity | Cloud Security | Security Management | Expert cloud AWS|Database proficiency 
 
 ## Contact
 
