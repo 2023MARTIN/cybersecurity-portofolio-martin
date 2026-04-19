@@ -1,48 +1,36 @@
-# SIEM Detection Lab (AWS)
+### 🛡️ SIEM Detection Lab
 
-## Overview
-This project demonstrates how to build a lightweight SIEM detection environment in AWS using **Amazon CloudWatch**, **Amazon GuardDuty**, and log-based alerting techniques.
+A blue-team focused project designed to simulate real-world security monitoring and detection using log analysis and alerting techniques in a cloud-based environment.
 
-The objective is to simulate security events, collect logs, detect suspicious behavior, and generate real-time alerts — similar to a real Security Operations Center (SOC).
+#### Key Activities
+- Centralized log collection and analysis (Linux auth logs)
+- Detection of brute-force attacks and unauthorized access attempts
+- Creation of log-based detection rules (metric filters)
+- Real-time alerting and notification setup
+- Correlation of events with threat intelligence (GuardDuty)
 
----
-
-##  Objectives
-
-- Collect and analyze logs from an EC2 instance
-- Detect suspicious activities (SSH brute force, failed logins)
-- Generate alerts using CloudWatch
-- Correlate findings with GuardDuty
-- Implement basic incident response actions
-
----
-
-##  Architecture
-
-- EC2 (Ubuntu Linux)
-- Amazon CloudWatch Logs
-- Amazon CloudWatch Alarms
-- Amazon GuardDuty
-- Amazon SNS (Email Alerts)
-
----
-
-##  Technologies Used
-
-- AWS EC2
-- Amazon CloudWatch
-- Amazon GuardDuty
-- Amazon SNS
+#### Tools & Technologies
+- AWS CloudWatch (Logs, Metrics, Alarms)
+- Amazon GuardDuty (Threat Detection)
+- Amazon SNS (Alerting)
 - Linux (Ubuntu)
 - SSH / Auth logs
 
----
+#### Detection Scenarios
+- SSH brute-force attempts (multiple failed logins)
+- Suspicious authentication patterns
+- Anomalous activity detected via GuardDuty findings
 
-##  Detection Scenarios
+#### Outcomes
+- Implemented real-time detection and alerting pipeline
+- Reduced mean time to detection (MTTD)
+- Improved visibility into system-level security events
+- Strengthened incident response readiness
 
-### 1. SSH Brute Force Detection
+#### Security Improvements
+- Hardened SSH configuration (key-based authentication)
+- Restricted access via Security Groups
+- Implemented automated alerting for rapid response
 
-Simulated multiple failed login attempts:
-
-```bash
-ssh fakeuser@<EC2-PUBLIC-IP>
+#### Disclaimer
+This project was conducted in a controlled lab environment using authorized AWS resources only.
